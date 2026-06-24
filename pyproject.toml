@@ -1,0 +1,26 @@
+[project]
+name = "obj8_to_wavefront_obj"
+version = "0.0.1"
+authors = [
+  { name="Isaac Barker", email="isaac@isaacbarker.net" },
+]
+description = "A simple python script used to bulk convert X-Plane OBJ8 files with .dds/.png textures to wavefront .obj and .mtl textures."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+dependencies = [
+  "pillow",
+]
+
+[project.urls]
+Homepage = "https://github.com/isaacbarker/obj8-to-wavefront-obj"
+Issues = "https://github.com/isaacbarker/obj8-to-wavefront-obj/issues"
+
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"

@@ -1,0 +1,1 @@
+from .convert import obj8_2_wavefront
