@@ -14,5 +14,7 @@ specifically designed for converting simple meshes in CSL or Model Matching Libr
 -  ANIMATION & TEXTURE_LIT commands
 -  Multiple textures
 
+For examples of the results of using this tool see [isaacbarker/bluebell-csl-wavefront-obj](https://github.com/isaacbarker/bluebell-csl-wavefront-obj)
+
 
 **DO NOT USE THIS SCRIPT ON COPYRIGHTED CONTENT**
