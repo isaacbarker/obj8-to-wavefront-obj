@@ -1,6 +1,6 @@
 [project]
 name = "obj8_to_wavefront_obj"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
   { name="Isaac Barker", email="isaac@isaacbarker.net" },
 ]
