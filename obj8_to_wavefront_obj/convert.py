@@ -91,11 +91,11 @@ def obj8_2_wavefront(input_file_path, output_file_path, relative_path=True):
                 data = line.split(" ")
                 texture_path = input_file_stem + "/" + data[1]
 
-                if texture_path.endswith('.dds'):
-                    img = Image.open(texture_path)
-                    texture_path = output_file_stem + '.png'
-                    os.makedirs(os.path.dirname(texture_path), exist_ok=True)
-                    img.save(texture_path)
+                # move texture into output path and convert to .png
+                img = Image.open(texture_path)
+                texture_path = output_file_stem + '.png'
+                os.makedirs(os.path.dirname(texture_path), exist_ok=True)
+                img.save(texture_path)
 
     # create .mtl file from data
     with open(output_file_stem + ".mtl", "w") as output_file:
